@@ -1,7 +1,7 @@
 const Gmap = () => {
     return (
         <div className="">
-            <h2 className="text-8xl">Google Map Integration Testing purposes</h2>
+            <h2 className="text-4xl">Google Map Integration Testing</h2>
         </div>
     )
 }
