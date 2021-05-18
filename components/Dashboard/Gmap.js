@@ -65,21 +65,13 @@ const Gmap = () => {
         position: myLatlng,
         map: map,
         animation: google.maps.Animation.DROP,
-        title: "Notus NextJS!",
-      });
-  
-      const contentString =
-        '<div class="info-window-content"><h2>Notus NextJS</h2>' +
-        "<p>A free Admin for Tailwind CSS, React, React Hooks, and NextJS.</p></div>";
-  
-      const infowindow = new google.maps.InfoWindow({
-        content: contentString,
+        title: "react",
       });
   
       google.maps.event.addListener(marker, "click", function () {
         infowindow.open(map, marker);
       });
-    });
+    },[]);
     return (
       <>
         <div className="relative rounded h-600-px" style={{width:'550px'}}>
