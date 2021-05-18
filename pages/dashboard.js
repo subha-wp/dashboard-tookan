@@ -20,7 +20,7 @@ const dashboard = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       {/* Left Panel */}
-      <div className="relative z-10">
+      <div className="relative">
         <RiArrowDropRightLine
           className="p-0 text-4xl bg-gray-300"
           onClick={() => setShowTaskBar(true)}
@@ -29,7 +29,7 @@ const dashboard = () => {
             <div className="absolute top-0 left-0 flex">
               <TaskBar />
               <RiArrowDropLeftLine
-                className="p-0 text-4xl bg-gray-300"
+                className="z-10 p-0 text-4xl bg-gray-300"
                 onClick={() => setShowTaskBar(false)}
               />
             </div>
