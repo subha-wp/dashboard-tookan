@@ -6,8 +6,8 @@ import { useEffect, useState } from "react";
 import Gmap from "../components/Dashboard/Gmap";
 
 const dashboard = () => {
-  const [showTaskBar, setShowTaskBar] = useState(true);
-  const [showAgentBar, setShowAgentBar] = useState(true);
+  const [showTaskBar, setShowTaskBar] = useState(false);
+  const [showAgentBar, setShowAgentBar] = useState(false);
 
 
 
