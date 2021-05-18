@@ -29,7 +29,7 @@ const dashboard = () => {
             <div className="absolute top-0 left-0 flex">
               <TaskBar />
               <RiArrowDropLeftLine
-                className="z-10 p-0 text-4xl bg-gray-300"
+                className="z-20 p-0 text-4xl bg-gray-300"
                 onClick={() => setShowTaskBar(false)}
               />
             </div>
