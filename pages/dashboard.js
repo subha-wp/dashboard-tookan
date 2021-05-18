@@ -20,7 +20,7 @@ const dashboard = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       {/* Left Panel */}
-      <div className="relative" area-hidden="false">
+      <div className="relative z-10">
         <RiArrowDropRightLine
           className="p-0 text-4xl bg-gray-300"
           onClick={() => setShowTaskBar(true)}
@@ -43,7 +43,7 @@ const dashboard = () => {
 
       {/* Right Panel */}
       
-      <div className="relative w-auto">
+      <div className="relative z-10">
         <RiArrowDropLeftLine
           className="p-0 text-4xl bg-gray-300"
           onClick={() => setShowAgentBar(true)}

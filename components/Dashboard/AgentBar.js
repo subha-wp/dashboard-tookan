@@ -2,7 +2,7 @@ import { BiSearch } from "react-icons/bi";
 
 const AgentBar = () => {
   return (
-    <div className="bg-gray-100 " style={{ height: "100vh" }}>
+    <div className="bg-gray-100" style={{ height: "100vh" }}>
       <div className="flex items-center justify-between px-2 py-1 text-lg text-white bg-blue-600 w-96">
         <h2>Task</h2>
         <BiSearch />
