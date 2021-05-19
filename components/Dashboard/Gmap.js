@@ -72,7 +72,7 @@ const Gmap = () => {
   }, []);
   return (
     <>
-      <div className="w-full">
+      <div className="w-96">
         <div className="" ref={mapRef} style={{ height: "90vh" }} />
         {/* Another ways to integrate Map */}
       </div>
